@@ -4,8 +4,8 @@ import numpy as np
 
 
 class Boobs:
-    def __init__(self, px_num=100):
-        ls = np.linspace(-10, 10, px_num)
+    def __init__(self, px_num=81):
+        ls = np.linspace(-9,9, px_num)
         points = []
         for x in ls:
             for y in ls:
